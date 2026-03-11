@@ -1,0 +1,12 @@
+name: MiPrimerPlugin
+version: '1.0'
+main: me.barto.miPrimerPlugin.MiPrimerPlugin
+api-version: '1.21'
+commands:
+  fly:
+    description: Comando para activar/desactivar el modo vuelo
+    usage: /<command>
+    aliases: [volar]
+  feed:
+    description: Permite llenar tu saturacion.
+    usage: /<command>
