@@ -4,9 +4,17 @@ main: me.barto.miPrimerPlugin.MiPrimerPlugin
 api-version: '1.21'
 commands:
   fly:
-    description: Comando para activar/desactivar el modo vuelo
+    description: Permite al jugador activar/desactivar el modo vuelo
     usage: /<command>
     aliases: [volar]
   feed:
-    description: Permite llenar tu saturacion.
+    description: Permite llenar la saturacion.
+    usage: /<command>
+  god:
+    description: Vuelve invulnerable al usuario
+    usage: /<command>
+    alias:
+      -dios
+  ajolote_azul:
+    description: Le da al jugador un ajolote azul
     usage: /<command>
